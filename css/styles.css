@@ -1,0 +1,278 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(33, 33, 33);
+}
+
+:root {
+  --logo-color: rgb(0, 0, 0);
+  --active-link-color: rgb(33, 150, 243);
+  --contact-color: rgb(117, 117, 117);
+  --border-bottom-color: rgb(236, 236, 236);
+  --alternative-color: rgb(255, 255, 255);
+  --background-color: rgb(47, 48, 58);
+  --alternative-color-transparent: rgba(255, 255, 255, 60%);
+  --alt-background-color: rgb(245, 244, 250);
+  --border-bottom-card-title-container-color: rgb(238, 238, 238);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.625rem;
+  text-decoration: none;
+  color: var(--logo-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--active-link-color);
+}
+
+.active-logo {
+  color: var(--active-link-color);
+  line-height: 1.9375rem;
+}
+
+.no-decoration-list {
+  list-style: none;
+  padding: 0;
+}
+
+.single-site {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.single-site:hover,
+.single-site:focus {
+  color: var(--active-link-color);
+}
+
+.active-site {
+  color: var(--active-link-color);
+}
+
+.contact {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  text-decoration: none;
+  color: var(--contact-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--active-link-color);
+}
+.h-mail {
+  margin-right: 50px;
+  margin-left: 371px;
+}
+.hero {
+  margin: 0 auto;
+  font-size: 2.75rem;
+  font-weight: 900;
+  line-height: 60px;
+  color: var(--alternative-color);
+  width: 696px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding-top: 200px;
+}
+
+.index-button {
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.06rem;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 4px;
+  padding: 0;
+  margin: 30px 0 200px;
+}
+
+.index-button:hover,
+.index-button:focus {
+  color: var(--alternative-color);
+  background-color: var(--active-link-color);
+}
+
+.lorem-ipsum-header {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.lorem-ipsum-item {
+  font-size: 0.875rem;
+  color: var(--contact-color);
+  line-height: 1.5rem;
+}
+
+.section-header {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 2.625rem;
+}
+
+.name {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.1875rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.profession {
+  color: var(--contact-color);
+  letter-spacing: 0.03em;
+  line-height: 1.1875rem;
+  text-align: center;
+  margin: 10px 0 30px;
+}
+
+.footer {
+  background-color: var(--background-color);
+  padding: 60px 0;
+}
+
+.alternative-logo {
+  color: var(--alternative-color);
+}
+
+.alternative-logo:hover,
+.alternative-logo:focus {
+  color: var(--active-link-color);
+}
+
+.contact-data {
+  font-style: inherit;
+  font-size: 0.875rem;
+}
+
+.city {
+  text-decoration: none;
+  color: var(--alternative-color);
+  line-height: 1.5rem;
+  letter-spacing: 0.03rem;
+  margin-top: 20px;
+}
+
+.city:hover,
+.city:focus {
+  color: var(--active-link-color);
+}
+
+.contact-details {
+  text-decoration: none;
+  color: var(--alternative-color-transparent);
+  line-height: 1.5rem;
+  letter-spacing: 0.03rem;
+  margin-top: 9px;
+}
+
+.contact-details:hover,
+.contact-details:focus {
+  color: var(--active-link-color);
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  width: 93px;
+  height: 38px;
+  letter-spacing: 0.03rem;
+  padding: 0;
+  background-color: var(--alt-background-color);
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--alternative-color);
+  background-color: var(--active-link-color);
+}
+
+.project {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  letter-spacing: 0.06rem;
+  margin: 0;
+}
+
+.description {
+  color: var(--contact-color);
+  line-height: 1.875rem;
+  letter-spacing: 0.03rem;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-bottom-color);
+  align-items: center;
+}
+.h-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 254px;
+  margin-left: 93px;
+}
+.section {
+  padding: 94px 0;
+}
+.section-hero {
+  background-color: var(--background-color);
+  text-align: center;
+}
+.section-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.card-lorem-ipsum {
+  width: 270px;
+  letter-spacing: 0.02em;
+}
+.section-our-team {
+  background-color: var(--alt-background-color);
+}
+.member-card {
+  background-color: var(--alternative-color);
+  border-radius: 0 0 4px 4px;
+}
+.section-flex-center {
+  display: flex;
+  justify-content: center;
+}
+.internal-button {
+  margin: 0 8px;
+}
+.section-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.project-card {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--border-bottom-card-title-container-color);
+}
+.card-title {
+  margin: 20px 24px;
+}
