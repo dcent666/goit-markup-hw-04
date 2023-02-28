@@ -63,11 +63,13 @@ body {
   letter-spacing: 0.02rem;
   text-decoration: none;
   color: var(--contact-color);
+  fill: var(--contact-color);
 }
 
 .contact:hover,
 .contact:focus {
   color: var(--active-link-color);
+  fill: var(--active-link-color);
 }
 
 .h-mail {
@@ -77,13 +79,6 @@ body {
 
 .nav-icon {
   margin-right: 10px;
-  color: #2196F3;
-  fill: #2196F3;
-}
-
-.nav-icon:hover {
-  color: #2196F3;
-  fill: #2196F3;
 }
 
 .hero {
@@ -154,7 +149,7 @@ body {
 
 .footer {
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 60.5px 0;
 }
 
 .alternative-logo {
@@ -243,6 +238,7 @@ body {
   border-bottom-style: solid;
   border-bottom-color: var(--border-bottom-color);
   align-items: center;
+  padding: 14.3px 0;
 }
 
 .h-nav {
