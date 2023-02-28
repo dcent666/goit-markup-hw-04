@@ -55,6 +55,9 @@ body {
 }
 
 .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 0.02rem;
@@ -66,10 +69,23 @@ body {
 .contact:focus {
   color: var(--active-link-color);
 }
+
 .h-mail {
-  margin-right: 50px;
+  margin-right: 30px;
   margin-left: 371px;
 }
+
+.nav-icon {
+  margin-right: 10px;
+  color: #2196F3;
+  fill: #2196F3;
+}
+
+.nav-icon:hover {
+  color: #2196F3;
+  fill: #2196F3;
+}
+
 .hero {
   margin: 0 auto;
   font-size: 2.75rem;
@@ -214,10 +230,12 @@ body {
   letter-spacing: 0.03rem;
   margin: 0;
 }
+
 .container {
   width: 1200px;
   margin: auto;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -226,41 +244,51 @@ body {
   border-bottom-color: var(--border-bottom-color);
   align-items: center;
 }
+
 .h-nav {
   display: flex;
   justify-content: space-between;
   width: 254px;
   margin-left: 93px;
 }
+
 .section {
   padding: 94px 0;
 }
+
 .section-hero {
   background-color: var(--background-color);
   text-align: center;
 }
+
 .section-flex {
   display: flex;
   justify-content: space-between;
 }
+
 .card-lorem-ipsum {
   width: 270px;
   letter-spacing: 0.02em;
 }
+
 .section-our-team {
   background-color: var(--alt-background-color);
 }
+
 .member-card {
   background-color: var(--alternative-color);
   border-radius: 0 0 4px 4px;
 }
+
 .section-flex-center {
   display: flex;
   justify-content: center;
 }
+
 .internal-button {
   margin: 0 8px;
 }
+
 .section-flex-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -268,11 +296,13 @@ body {
   justify-content: space-between;
   margin-top: 50px;
 }
+
 .project-card {
   border-width: 0 1px 1px 1px;
   border-style: solid;
   border-color: var(--border-bottom-card-title-container-color);
 }
+
 .card-title {
   margin: 20px 24px;
 }
