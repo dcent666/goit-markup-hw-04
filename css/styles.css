@@ -253,6 +253,10 @@ body {
 }
 
 .section-hero {
+  background-image: url("/images/office-open-space.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: var(--background-color);
   text-align: center;
 }
