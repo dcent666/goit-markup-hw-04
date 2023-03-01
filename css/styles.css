@@ -19,6 +19,7 @@ body {
   --alt-background-color: rgb(245, 244, 250);
   --border-bottom-card-title-container-color: rgb(238, 238, 238);
   --member-social-links-color: rgb(175, 177, 184);
+  --footer-social-links-background-color: rgba(255, 255, 255, 10%)
 }
 
 .logo {
@@ -322,13 +323,13 @@ body {
 
 }
 
-.member-social-links-icon {
+.member-social-link-icon {
   fill: var(--member-social-links-color);
   padding: 12px;
 }
 
-.member-social-links-icon:hover,
-.member-social-links-icon:focus {
+.member-social-link-icon:hover,
+.member-social-link-icon:focus {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -387,4 +388,42 @@ body {
 .client-logo:focus {
   fill: var(--active-link-color);
   border-color: var(--active-link-color);
+}
+
+.footer-items {
+  display: flex;
+  justify-content: left;
+}
+
+.footer-social-links {
+  width: 206px;
+  margin-left: 70px;
+}
+
+.footer-social-links-title {
+  color: var(--alternative-color);
+  font-weight: 700px;
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+  line-height: 16.41px;
+}
+
+.footer-social-links-list {
+  list-style: none;
+  padding: 0;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-link-icon {
+  fill: var(--alternative-color);
+  padding: 12px;
+  border-radius: 50%;
+  background-color: var(--footer-social-links-background-color);
+}
+
+.footer-social-link-icon:hover,
+.footer-social-link-icon:focus {
+  background-color: var(--active-link-color);
 }
