@@ -16,6 +16,10 @@ body {
   --member-card-shadow-color1: rgba(0, 0, 0, 12%);
   --member-card-shadow-color2: rgba(0, 0, 0, 14%);
   --member-card-shadow-color3: rgba(0, 0, 0, 20%);
+  --portfolio-button-shadow-color1: rgba(0, 0, 0, 8%);
+  --portfolio-button-shadow-color2: rgba(0, 0, 0, 10%);
+  --project-card-shadow-color1: rgba(0, 0, 0, 16%);
+  --project-card-shadow-color2: rgba(0, 0, 0, 6%);
   --alt-background-color: rgb(245, 244, 250);
   --border-bottom-card-title-container-color: rgb(238, 238, 238);
   --member-social-links-color: rgb(175, 177, 184);
@@ -220,6 +224,9 @@ body {
 .portfolio-button:focus {
   color: var(--alternative-color);
   background-color: var(--active-link-color);
+  box-shadow: 0 2px 2px 0 var(--member-card-shadow-color1),
+    0 1px 2px 0 var(--portfolio-button-shadow-color1),
+    0 3px 1px 0 var(--portfolio-button-shadow-color2);
 }
 
 .project {
@@ -359,6 +366,12 @@ body {
   border-width: 0 1px 1px 1px;
   border-style: solid;
   border-color: var(--border-bottom-card-title-container-color);
+}
+
+.project-card:hover {
+  box-shadow: 1px 4px 6px 0 var(--project-card-shadow-color1),
+    0 4px 4px 0 var(--project-card-shadow-color2),
+    0 1px 1px 0px var(--member-card-shadow-color1);
 }
 
 .card-title {
