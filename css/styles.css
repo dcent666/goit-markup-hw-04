@@ -138,6 +138,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   line-height: 2.625rem;
+  margin: 0 0 50px;
 }
 
 .name {
@@ -145,7 +146,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.1875rem;
   text-align: center;
-  margin-bottom: 0;
+  margin: 30px 0 0;
 }
 
 .profession {
@@ -153,7 +154,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.1875rem;
   text-align: center;
-  margin: 10px 0 30px;
+  margin: 10px 0 16px;
 }
 
 .footer {
@@ -300,6 +301,7 @@ body {
 .member-card {
   display: flex;
   width: 270px;
+  padding-bottom: 30px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -311,14 +313,28 @@ body {
 }
 
 .member-social-links {
+  height: 44px;
+  list-style: none;
+  padding: 0;
   display: flex;
   width: 206px;
   justify-content: space-between;
-  padding-bottom: 30px;
+
 }
 
 .member-social-links-icon {
   fill: var(--member-social-links-color);
+  padding: 12px;
+}
+
+.member-social-links-icon:hover,
+.member-social-links-icon:focus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--active-link-color);
+  fill: var(--alternative-color);
 }
 
 .section-flex-center {
