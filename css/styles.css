@@ -273,7 +273,7 @@ body {
 .section-hero {
   background-image: linear-gradient(to right,
       var(--background-color), var(--background-gradient-color)),
-    url("/images/office-open-space.jpg");
+    url("../images/office-open-space.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
